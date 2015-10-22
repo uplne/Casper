@@ -506,7 +506,7 @@ body.nav-opened .site-wrapper {
     height: 40vh;
     margin-bottom: 5rem;
     text-align: center;
-    background: #222 no-repeat center center;
+    background: #df4400 no-repeat center center;
     background-size: cover;
     overflow: hidden;
 }
@@ -765,8 +765,9 @@ body.nav-opened .nav {
 
 /* Appears in the top left corner of your home page */
 .blog-logo {
-    display: block;
-    float: left;
+    position: absolute;
+    top: 30px;
+    left: 0;
     background: none !important; /* Makes sure there is never a background */
     border: none !important; /* Makes sure there is never a border */
 }
@@ -776,7 +777,7 @@ body.nav-opened .nav {
     -moz-box-sizing: border-box;
     box-sizing: border-box;
     display: block;
-    height: 38px;
+    height: 60px;
     padding: 1px 0 5px 0;
     width: auto;
 }
