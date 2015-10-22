@@ -824,16 +824,6 @@ body.nav-opened .nav {
     color: #222;
 }
 
-/* When the navigation is closed and there is no cover image */
-.nav-closed .no-cover .menu-button {
-    border-color: #BFC8CD;
-    color: #9EABB3;
-}
-.nav-closed .no-cover .menu-button:hover {
-    border-color: #555;
-    color: #555;
-}
-
 /* When the navigation is opened */
 .nav-opened .menu-button {
     padding: 0 12px;
