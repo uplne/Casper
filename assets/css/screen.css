@@ -1743,6 +1743,10 @@ body:not(.post-template) .post-title {
         padding: 5px;
     }
 
+    .blog-logo svg {
+        width: 150px;
+    }
+
     .blog-logo img {
         height: 30px;
     }
