@@ -767,9 +767,13 @@ body.nav-opened .nav {
 .blog-logo {
     position: absolute;
     top: 30px;
-    left: 0;
+    left: 34px;
     background: none !important; /* Makes sure there is never a background */
     border: none !important; /* Makes sure there is never a border */
+}
+
+.blog-logo svg {
+    width: 150px;
 }
 
 .blog-logo img {
