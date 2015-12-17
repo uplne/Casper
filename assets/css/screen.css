@@ -530,9 +530,10 @@ body.nav-opened .site-wrapper {
 .header__beta {
     font-size: 12px;
     position: absolute;
-    top: 16px; // Total magic numbers. No reason, just it fits nicely.
-    right: -18px;
-    padding: 0 4px;
+    top: 16px;
+    right: -30px;
+    padding: 2px 4px;
+    line-height: 1.1;
     color: #fff;
     background-color: #99d6eb;
     border-radius: 3px;
@@ -972,6 +973,10 @@ body.nav-opened .nav {
 
 body:not(.post-template) .post-title {
     font-size: 3.6rem;
+}
+
+.post-template {
+    margin-top: 106px;
 }
 
 .post-title a {
